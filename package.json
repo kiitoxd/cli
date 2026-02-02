@@ -1,0 +1,13 @@
+{
+  "name": "cli-sphere-background",
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "node wt-sphere.js --generate",
+    "set-default": "node wt-sphere.js --set-default",
+    "cycle": "node wt-sphere.js"
+  },
+  "dependencies": {
+    "picocolors": "^1.1.0",
+    "sharp": "^0.33.5"
+  }
+}
